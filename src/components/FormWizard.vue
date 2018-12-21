@@ -192,7 +192,7 @@
         return this.tabs.length
       },
       isLastStep () {
-        return this.activeTabIndex === this.tabCount - 1
+        return this.activeTabIndex === this.tabCount
       },
       isVertical () {
         return this.layout === 'vertical'
