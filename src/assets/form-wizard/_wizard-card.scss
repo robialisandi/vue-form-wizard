@@ -19,8 +19,8 @@
     border: 3px solid $gray-input-bg;
     border-radius: 50%;
     font-weight: $font-weight-bold;
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     background-color: $white-color;
     position: relative;
     display: flex;
@@ -88,8 +88,11 @@
   .wizard-navigation {
     .wizard-progress-with-circle {
       position: relative;
-      top: 40px;
+      top: 25px;
       height: 4px;
+      background-color: #e4e4e4;
+      color: #e4e4e4;
+      width: 75%;
 
       .wizard-progress-bar {
         box-shadow: none;
