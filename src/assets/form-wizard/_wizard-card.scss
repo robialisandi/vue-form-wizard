@@ -132,6 +132,12 @@
       }
     }
   }
+  @media (max-width: 575.98px){
+    .wizard-tab-content {
+      min-height: 100px;
+      padding: 30px 0px 10px;
+    }
+  }
 
   &.vertical {
     .wizard-card-footer {
